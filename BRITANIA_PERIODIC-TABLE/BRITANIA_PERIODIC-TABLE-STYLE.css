@@ -1,0 +1,160 @@
+body {
+    background-color: #11093b;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.main-title {
+    text-align: center;
+    color: #ffb300;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #B8C5D6;
+}
+
+.sample-area {
+    text-align: center;
+}
+
+.sample-table {
+    margin: 20px auto;
+}
+
+.sample-element {
+    width: 200px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.sample-symbol {
+    display: block;
+    font-size: 36px;
+    margin: 10px;
+}
+
+.sample-mass {
+    display: block;
+    margin-top: 10px;
+}
+
+.legend-title {
+    text-align: center;
+    color: #FFD166;
+}
+
+.legend {
+    margin: auto;
+    text-align: center;
+    font-size: 11px;
+    border-spacing: 3px;
+}
+
+.legend td {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.table-wrap {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.periodic-table, .series-table {
+    margin: 25px auto;
+    border-spacing: 3px;
+    text-align: center;
+}
+
+.element {
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    min-width: 58px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.element small {
+    display: block;
+    font-size: 10px;
+}
+
+.symbol {
+    display: block;
+    font-size: 20px;
+}
+
+.element-name {
+    display: block;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.mass {
+    font-size: 9px !important;
+    margin-top: 3px;
+}
+
+.empty {
+    min-width: 35px;
+}
+
+.nonmetal { background-color: #A8DADC; }
+.halogen { background-color: #FFD166; }
+.noble { background-color: #BDE0FE; }
+.alkali { background-color: #90BE6D; }
+.alkaline { background-color: #F9C74F; }
+.transition { background-color: #F4A261; }
+.post { background-color: #CDB4DB; }
+.metalloid { background-color: #FFC8DD; }
+.lanthanide { background-color: #A0C4FF; }
+.actinide { background-color: #B9FBC0; }
+
+.series-title {
+    text-align: center;
+}
+
+.lanthanide-title { color: #A0C4FF; }
+.actinide-title { color: #B9FBC0; }
+
+.series-table .element {
+    padding: 8px;
+    min-width: 65px;
+}
+
+.footer-line {
+    border: 1px solid #FFD166;
+    width: 80%;
+    margin-top: 35px;
+}
+
+.quote {
+    text-align: center;
+    color: #FFD166;
+    font-size: 14px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #B8C5D6;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        margin: 10px;
+    }
+
+    .legend {
+        font-size: 10px;
+    }
+
+    .legend td {
+        padding: 10px;
+    }
+}
